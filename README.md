@@ -32,7 +32,7 @@ npx @hk-judge/transit-engine@latest
 
 **Use when:** an agent must evaluate whether any product is viable for Hong Kong duty-free transit into a destination market.
 
-**Input:** Crest teeth whitening strips into Europe and the Middle East
+**Input:** generic teeth whitening strips into Europe and the Middle East
 
 **Expected output:**
 - Landed-cost line items (freight, duty/tax, packaging assumptions)
