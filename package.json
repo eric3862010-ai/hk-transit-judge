@@ -1,6 +1,6 @@
 {
   "name": "@hk-judge/transit-engine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "mcpName": "com.igoaltrading/hk-transit-judge",
   "description": "For everyday users across departments, skills, and professions: this MCP judges Hong Kong duty-free transit and screens supplier credit so your speed doubles whenever you need it. Synthetic demo only.",
   "type": "module",

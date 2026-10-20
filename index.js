@@ -14,7 +14,7 @@ export const tools = [
       properties: {
         sku: {
           type: "string",
-          description: "Product SKU or product name, e.g. Crest whitening strips",
+          description: "Product SKU or product name, e.g. generic teeth whitening strips",
         },
         destination_country: {
           type: "string",
@@ -112,7 +112,7 @@ const isMain =
 
 if (isMain) {
   const transit = evaluate_transit_viability({
-    sku: "Crest whitening strips",
+    sku: "generic teeth whitening strips",
     destination_country: "Europe and the Middle East",
   });
   const credit = check_supplier_credit({
