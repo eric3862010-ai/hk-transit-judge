@@ -16,7 +16,7 @@ npx @hk-judge/transit-engine@latest
 
 ## First prompt example
 
-**Input:** Crest teeth whitening strips into Europe
+**Input:** Crest teeth whitening strips into Europe and the Middle East
 
 **Expected output:**
 - Landed-cost line items (freight, duty/tax, packaging assumptions)
