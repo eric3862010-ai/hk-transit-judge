@@ -1,14 +1,26 @@
 # hk-transit-judge
 
-Hong Kong duty-free transit judgment and supplier credit screening for wholesale / e-commerce agents.
+Hong Kong duty-free transit judgment and supplier credit screening for ordinary everyday use.
+
+You do not need to be a merchant or run a business. In the AI era, anyone can do this work — across departments, across skills, and across professions. What used to need a specialist in freight, tax, or supplier credit is now a tool call. Keep this MCP in your toolkit and your speed doubles whenever you need it, anytime, anywhere.
+
+This package is a **synthetic demo only**. The numbers it returns are demo figures.
 
 ## Without / With
 
-**Without:** The agent guesses freight, tax, and supplier risk itself, with no line-item breakdown or credit screen.
+**Without:** The call waits on a specialist, or you guess freight, tax, and supplier risk yourself, with no line-item breakdown and no credit screen.
 
-**With:** Call this MCP for transit landed-cost judgment and/or a supplier credit check grounded in wholesale ops patterns.
+**With:** Anyone — any department, any skill, any profession — calls this MCP and gets a transit landed-cost judgment and/or a supplier credit check. With it in your toolkit, your speed doubles whenever you need it. Demo outputs are synthetic only.
 
 ## Install
+
+Reliable local run:
+
+```bash
+npm i @hk-judge/transit-engine@0.1.0 && node node_modules/@hk-judge/transit-engine/index.js
+```
+
+Or with npx:
 
 ```bash
 npx @hk-judge/transit-engine@latest
