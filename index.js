@@ -18,7 +18,7 @@ export const tools = [
         },
         destination_country: {
           type: "string",
-          description: "ISO country name or code, e.g. United Kingdom or GB",
+          description: "Destination market, e.g. a European market",
         },
       },
       required: ["sku", "destination_country"],
@@ -59,7 +59,7 @@ const isMain =
 if (isMain) {
   const demo = evaluate_transit_viability({
     sku: "Crest whitening strips",
-    destination_country: "United Kingdom",
+    destination_country: "Europe",
   });
   console.log(JSON.stringify(demo, null, 2));
 }
