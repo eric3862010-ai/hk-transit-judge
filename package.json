@@ -2,7 +2,7 @@
   "name": "@hk-judge/transit-engine",
   "version": "0.1.0",
   "mcpName": "com.igoaltrading/hk-transit-judge",
-  "description": "MCP tool evaluate_transit_viability: Hong Kong duty-free transit judgment for SKUs entering any destination country — returns synthetic landed-cost line items (freight, tax, packaging) plus three bargaining prompts. Demo data only; no real commercial data.",
+  "description": "MCP tools evaluate_transit_viability and check_supplier_credit: Hong Kong duty-free transit judgment plus supplier credit screening — synthetic demo outputs only; real verification stays behind the server.",
   "type": "module",
   "bin": {
     "hk-transit-judge": "./index.js"
