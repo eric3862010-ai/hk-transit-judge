@@ -9,11 +9,14 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Runtime / env
+# Runtime / env — never commit keys, Stripe secrets, or the credit ledger
 .env
 .env.*
 !.env.example
 .DS_Store
+data/
+keys.json
+*.local.json
 
 # Coverage / build
 coverage/
