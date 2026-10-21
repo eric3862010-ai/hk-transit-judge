@@ -1,15 +1,22 @@
 {
   "name": "@hk-judge/transit-engine",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "mcpName": "com.igoaltrading/hk-transit-judge",
-  "description": "For everyday users across departments, skills, and professions: this MCP judges Hong Kong duty-free transit and screens supplier credit so your speed doubles whenever you need it. Synthetic demo only.",
+  "description": "For everyday users across departments, skills, and professions: this MCP judges Hong Kong duty-free transit and screens supplier credit so your speed doubles whenever you need it. Synthetic demo only. Publisher API-key credits per successful call (not client model tokens).",
   "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./billing.js": "./billing.js",
+    "./webhook.js": "./webhook.js"
+  },
   "bin": {
     "hk-transit-judge": "./index.js"
   },
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --test",
+    "webhook": "node webhook.js"
   },
   "keywords": [
     "hong-kong",
@@ -34,6 +41,10 @@
   },
   "files": [
     "index.js",
-    "README.md"
+    "billing.js",
+    "webhook.js",
+    "README.md",
+    "PRODUCTION.md",
+    ".env.example"
   ]
 }
